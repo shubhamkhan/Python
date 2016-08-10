@@ -1,0 +1,11 @@
+#!/bin/python3
+import sys
+
+n,m = input().strip().split(' ')
+n,m = [int(n),int(m)]
+if n < m:
+   cnt = m % n
+   cnt = n - cnt
+else:
+    cnt = n - m
+print(cnt)
