@@ -1,0 +1,24 @@
+Django version chack
+
+--------------------
+
+python -m django --version
+
+
+
+Django new project create
+
+-------------------------
+
+django-admin startproject mysite #mysite is the name of the project main folder
+
+
+
+Django server start
+
+-------------------
+
+cd project_name
+python manage.py runserver
+
+

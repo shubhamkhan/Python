@@ -1,0 +1,58 @@
+Install Apache:
+
+sudo apt install apache2
+
+
+
+Install MySQL:
+
+sudo apt install mysql-server mysql-client
+
+configuration 
+
+MySQL:
+
+sudo mysql_secure_installation
+
+Install 
+
+PHP:
+
+sudo add-apt-repository ppa:ondrej/php5-5.6
+
+sudo apt install php5.6 php5.6-mysql php5.6-curl php5.6-mbstring php-gettext php5.6-mcrypt php5.6-xmlrpc libapache2-mod-php5.6
+
+sudo service apache2 restart
+
+
+
+Install phpmyadmin:
+
+sudo apt-get install phpmyadmin
+
+Install 
+
+VLC Player:
+
+sudo apt-get install vlc browser-plugin-vlc
+
+
+
+Install SimpleScreenRecorder:
+
+sudo add-apt-repository ppa:maarten-baert/simplescreenrecorder
+
+sudo apt-get update
+sudo apt-get install simplescreenrecorder
+
+
+
+
+Laravel
+
+--------
+
+export PATH="~/.config/composer/vendor/bin:$PATH"
+
+laravel new application
+

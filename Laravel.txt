@@ -1,0 +1,12 @@
+Laravel new project create
+-------------------------
+sudo mkdir laravel #laravel is the name of the project store folder
+sudo chmod 777 laravel/
+cd laravel/
+laravel new demo #demo is the name of the project main folder *when internet cunnection is on
+
+Laravel server start
+-------------------
+cd project_name
+php artisan serve
+

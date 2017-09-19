@@ -1,0 +1,96 @@
+Create a new repository and first time push
+
+--------------------------------------------
+
+1. Open the github
+
+2. Create a repository
+
+3. Go to the folder where you want to store your project
+
+4. Open the terminal on this place
+
+5. run "git clone https://github.com/user_name/repository_name"
+
+6. run "cd repository_name"
+
+7. run "git add --all"
+
+8. run "git commit -m "write your Commit" "
+
+9. run "git push -u origin master"
+
+10.give user name for github
+
+11.also password is given to terminal
+
+12.go to https://github.com/user_name/repository_name
+
+
+
+
+Next time Push in old repository
+
+--------------------------------
+
+1. git init
+
+2. git add .
+
+3. git commit -m "First commit"
+
+4. git remote add origin <remote_repository_URL> # Sets the new remote
+
+5. git remote -v # Verifies the new remote URL
+
+6. git push -u origin master
+
+
+
+Create Branch
+
+-------------
+
+1. git branch <test-branch>
+
+2. git checkout <test-branch>
+
+3. git add <new_file>
+
+4. git commit -m "First Commite"
+
+5. git push orging <test-branch>
+
+
+
+
+Pull request
+
+------------
+
+git pull origin master
+
+
+
+
+Delete Branch
+
+-------------
+
+1. git branch -D test-branch
+
+
+
+
+Marge two Branch
+
+----------------
+
+1. git branch -D coins #delete coine
+
+2. git branch
+
+3. git marge master coins #marge branch
+
+
+
